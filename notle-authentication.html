@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daybook — Email Confirmed</title>
+<style>
+  :root {
+    --cream: #faf6ef;
+    --ink800: #26221c;
+    --ink600: #55503f;
+    --ink300: #a39b87;
+    --crimson: #a4243b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--cream);
+    color: var(--ink600);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.65;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  main { max-width: 480px; margin: 0 auto; padding: 48px 24px; text-align: center; }
+  .eyebrow {
+    font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--crimson); font-weight: 600; margin-bottom: 16px;
+  }
+  .check {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--crimson); color: var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 24px; font-size: 28px;
+    font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+  h1 { font-size: 32px; font-weight: 400; color: var(--ink800); letter-spacing: -0.015em; margin-bottom: 12px; }
+  p { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 15px; color: var(--ink600); margin-bottom: 8px; }
+  .hint { font-size: 13px; color: var(--ink300); margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Daybook</p>
+  <div class="check" aria-hidden="true">&#10003;</div>
+  <h1>Email confirmed</h1>
+  <p>Your email address has been confirmed. You can now sign in to Daybook.</p>
+  <p class="hint">You can close this page.</p>
+</main>
+</body>
+</html>
